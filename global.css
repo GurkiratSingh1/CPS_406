@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Harmattan');
+
+html{
+	font-family: 'Harmattan', sans-serif;
+}
+
+.nav ul {
+	list-style: none;
+	background-color: #DCDCDC;
+	margin-left: 0.2;	
+	text-align: center;
+	padding: 0;
+	margin-top: -10px;
+	height: 72px;
+	width: 100%;
+
+}
+
+
+.nav li{
+	font-size:20px;
+	font-weight: bolder; 
+	border-bottom: 1.5px solid black;
+	line-height: 40px;
+	height: 40px;
+}
+.nav a {
+	color:#020000;
+	text-decoration: none;
+	display: block;
+
+}
+.nav a:hover {
+	background-color:#808080;
+	color: white;
+	height: 65px;
+	
+}
+
+pre.middle{
+	margin: auto;
+}
+
+@media screen and (min-width:1024px){
+	
+	.nav li {
+		width: 230px;
+		border-bottom: none;
+		height: 70px;
+		font-size: 25px;
+		line-height: 70px;
+		padding-top: 5px;
+		padding-bottom: 20px;
+	}
+
+
+	.nav li {
+		display: inline-block;
+		margin-right: -4px;
+		
+    }	
+    
+    #logo #img{
+	margin-top: -85px;	
+	/*margin-bottom: 900px;*/
+	float: left;
+	width: 200px;
+	height: 70px;
+	
+}
+
+
+	#hp{
+		margin-right: -20px;
+		margin-left: 30px;
+	}
+
+	#topSpot{
+		margin-left: -5px;
+		margin-right: 10px;
+	}
+
+	#topArt{
+	    margin-left: 10px; 
+		width: 260px;
+	}
+
+	#topSC{
+		margin-right: 5px;
+	}
+
+	#slogan{
+		margin-top: 200px;
+		margin-bottom: auto;
+		padding-bottom: 215px;
+		padding-top: 215px;
+		padding-right:100px;
+		font-weight: bolder;
+		font-size: 40px;
+
+	}
+
+	.container{
+		background-color: #EDD6C3;
+		width: 100%;
+		margin: auto;		
+		margin-top: -200px;
+		text-align: center;
+		height: 657px;
+
+	}
+}

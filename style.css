@@ -1,0 +1,25 @@
+
+#btnLogout{
+	display:none;
+}
+
+#txtPassword{
+	display:inline;
+}
+
+#txtEmail{
+	display:inline;
+}
+
+#name{
+	display:none;
+}
+
+ #map {
+        width: 60%;
+        height: 400px;
+        background-color: grey;
+	
+		  margin: 0 auto;
+
+}
